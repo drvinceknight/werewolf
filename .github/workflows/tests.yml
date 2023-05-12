@@ -28,5 +28,5 @@ jobs:
         python -m pip install hatch
 
     - name: Run tests
-       run: |
-         hatch run test:test
+      run: |
+        hatch run test:test
